@@ -1,0 +1,69 @@
+Go to Home Directory
+
+git clone https://github url
+
+cd projectName
+
+git status
+
+npm init
+
+npm install --save-dev babel-core babel-loader babel-preset-es2015
+
+npm install --save-dev less less-loader
+
+npm install --save-dev webpack webpack-dev-server
+
+npm install --save-dev css-loader file-loader style-loader url-loader
+
+npm install --save-dev extract-text-webpack-plugin
+
+npm install --save jquery
+
+all must be installed in folder which was cloned from github
+
+after installing packages, open Atom, create file webpack.config.js in main folder and copy text from https://github.com/jankosacc/starter/blob/develop/webpack.config.js
+
+after create file .babelrc, also in main folder, and type { presets: ["es2015"]}
+
+pwd
+
+Add these lines to package.json under scripts
+
+,
+    "build": "webpack",
+    "watch": "webpack --progress --colors --watch",
+    "dev": " webpack-dev-server --colors --inline --hot"
+
+npm run build
+
+
+npm run dev
+
+git status
+
+git config --global user.name "ArunaWijewardana"
+
+git config --global user.email aruna.wijewardana@gmail.com
+
+git config --list
+
+git status
+
+git add .
+
+git commit -m'adding initial files'
+
+git push origin master
+
+git checkout -b develop
+
+git push origin develop
+
+git commit -m"removing jquery"
+
+git add .
+
+git commit -m"removing jquery"
+
+git push origin develop
