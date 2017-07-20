@@ -1,12 +1,12 @@
 Go to Home Directory
 
-git clone https://github url
+git clone https://github url - Create the project folder
 
-cd projectName
+cd projectName - Get inside the project folder
 
-git status
+git status - Displays the status.
 
-npm init
+npm init - Fill up the nessasary info
 
 npm install --save-dev babel-core babel-loader babel-preset-es2015
 
@@ -27,6 +27,12 @@ after installing packages, open Atom, create file webpack.config.js in main fold
 after create file .babelrc, also in main folder, and type { presets: ["es2015"]}
 
 pwd
+
+Create script.css & script.less files on the project directory. Add these lines to script.js
+
+'use strict';
+
+import './style.less';
 
 Add these lines to package.json under scripts
 
@@ -74,4 +80,17 @@ npm install --save jquery@1.8.2
 
 npm install --save-dev react@15.4.2 react-dom@15.4.2 react-router@3.0.2
 
+npm install --save-dev babel-preset-react
 
+add , "react" to .babelrc
+
+Add Atom extention called React. (Search for React JSX) And install.
+
+
+npm install --save-dev font-awesome
+
+Add the following to to script.js file
+
+import './node_modules/font-awesome/css/font-awesome.css';
+
+Create a folder called components in the Project Root folder. Create two files named logo.jsx and icon.jsx
