@@ -65,18 +65,9 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-__webpack_require__(1);
-
-/***/ }),
-/* 1 */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+throw new Error("Module build failed: SyntaxError: Unexpected token, expected ; (9:62)\n\n\u001b[0m \u001b[90m  7 | \u001b[39m\u001b[36mimport\u001b[39m \u001b[33mLogo\u001b[39m from \u001b[32m'./components/logo'\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m  8 | \u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  9 | \u001b[39m\u001b[33mReactDOM\u001b[39m\u001b[33m.\u001b[39mrender(\u001b[33m<\u001b[39m\u001b[33mLogo\u001b[39m \u001b[33m/\u001b[39m\u001b[33m>\u001b[39m)\u001b[33m,\u001b[39m document\u001b[33m.\u001b[39mgetElementById(\u001b[32m'picogram'\u001b[39m))\u001b[33m;\u001b[39m\n \u001b[90m    | \u001b[39m                                                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 10 | \u001b[39m\u001b[0m\n");
 
 /***/ })
 /******/ ]);
