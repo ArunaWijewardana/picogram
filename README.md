@@ -5,27 +5,27 @@ Bootcamp picogram
 
 * Go to Home Directory using terminal. (Hope you already installed git on your pc) https://www.atlassian.com/git/tutorials/install-git
 
-`git clone https://githubProjectUrl` - Create the project folder
+    * `git clone https://githubProjectUrl` - Create the project folder
 
-`cd projectName` - Get inside the project folder
+    * `cd projectName` - Get inside the project folder
 
-`git status` - Displays the status.
+    * `git status` - Displays the status.
 
 * Hope you have npm installed already. https://www.npmjs.com/get-npm
 
-`npm init` - Fill up the nessasary info
+    * `npm init` - Fill up the nessasary info
 
-`npm install --save-dev babel-core babel-loader babel-preset-es2015`
+    * `npm install --save-dev babel-core babel-loader babel-preset-es2015`
 
-`npm install --save-dev less less-loader`
+    * `npm install --save-dev less less-loader`
 
-`npm install --save-dev webpack webpack-dev-server`
+    * `npm install --save-dev webpack webpack-dev-server`
 
-`npm install --save-dev css-loader file-loader style-loader url-loader`
+    * `npm install --save-dev css-loader file-loader style-loader url-loader`
 
-`npm install --save-dev extract-text-webpack-plugin`
+    * `npm install --save-dev extract-text-webpack-plugin`
 
-`npm install --save jquery`
+    * `npm install --save jquery`
 
 All must be installed in folder which was cloned from github
 
