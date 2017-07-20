@@ -13,37 +13,37 @@ Bootcamp picogram
 
 * Hope you have npm installed already. https://www.npmjs.com/get-npm
 
-    * `npm init` - Fill up the nessasary info
+   * `npm init` - Fill up the nessasary info
 
-    * `npm install --save-dev babel-core babel-loader babel-preset-es2015`
+   * `npm install --save-dev babel-core babel-loader babel-preset-es2015`
 
-    * `npm install --save-dev less less-loader`
+   * `npm install --save-dev less less-loader`
 
-    * `npm install --save-dev webpack webpack-dev-server`
+   * `npm install --save-dev webpack webpack-dev-server`
 
-    * `npm install --save-dev css-loader file-loader style-loader url-loader`
+   * `npm install --save-dev css-loader file-loader style-loader url-loader`
 
-    * `npm install --save-dev extract-text-webpack-plugin`
+   * `npm install --save-dev extract-text-webpack-plugin`
 
-    * `npm install --save jquery`
+   * `npm install --save jquery`
 
-All must be installed in folder which was cloned from github
+   * *All must be installed in folder which was cloned from github*
 
-after installing packages, open Atom, create file **webpack.config.js** in main folder and copy text from https://github.com/jankosacc/starter/blob/develop/webpack.config.js
+* After installing packages, open Atom, create file **webpack.config.js** in main folder and copy text from https://github.com/jankosacc/starter/blob/develop/webpack.config.js
 
-after create file **.babelrc**, also in main folder, and type `{ presets: ["es2015"]}`
+* After that, create file **.babelrc**, also in main folder, and type `{ presets: ["es2015"]}`
 
 `pwd` - Shows your location in the file system
 
-Create **script.css** & **script.less** files on the project directory. Add these lines to **script.js**
+* Create **script.css** & **script.less** files on the project directory. Add these lines to **script.js**
 
-`'use strict';
+   * `'use strict';
 
 import './style.less';`
 
-Add these lines to **package.json** under scripts
+* Add these lines to **package.json** under scripts
 
-`,
+   * `,
     "build": "webpack",
     "watch": "webpack --progress --colors --watch",
     "dev": " webpack-dev-server --colors --inline --hot"`
@@ -53,33 +53,33 @@ Add these lines to **package.json** under scripts
 
 `npm run dev` - Runs the server specified on the port mentioned in **webpack.config.js** file.
 
-`git status`
+      * `git status`
 
-`git config --global user.name "YourGithubUserName"`
+      * `git config --global user.name "YourGithubUserName"`
 
-`git config --global user.email registeredemail@email.com`
+      * `git config --global user.email registeredemail@email.com`
 
-`git config --list` - You sould see the entered details
+      * `git config --list` - You sould see the entered details
 
-`git status`
+      * `git status`
 
-`git add .` - Save the changes in your local git
+      * `git add .` - Save the changes in your local git
 
-`git commit -m'adding initial files'` - Adding them to your local package
+      * `git commit -m'adding initial files'` - Adding them to your local package
 
-`git push origin master` - Push your modified package to github
+      * `git push origin master` - Push your modified package to github
 
-`git checkout -b develop` - Create a branch called develop
+      * `git checkout -b develop` - Create a branch called develop
 
-`git push origin develop` - Push your code to devlop branch too
+      * `git push origin develop` - Push your code to devlop branch too
 
-Hope you have removed a package from your development. Here it was jquery.
+* Hope you have removed a package from your development. Here it was jquery.
 
-`git add .` Add them to your local git.
+      * `git add .` Add them to your local git.
 
-`git commit -m"removing jquery"` Save the changes with a comment.
+      * `git commit -m"removing jquery"` Save the changes with a comment.
 
-`git push origin develop` - Upload the changed to **development** branch
+      * `git push origin develop` - Upload the changed to **development** branch
 
 ### Thursday 20th July
 
