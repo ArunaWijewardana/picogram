@@ -105,3 +105,21 @@ Add the following to to script.js file
 import './node_modules/font-awesome/css/font-awesome.css';
 
 Create a folder called components in the Project Root folder. Create two files named logo.jsx and icon.jsx
+
+npm run build - To update your dist folder form the latest development output
+
+
+
+
+# Server setup (Not Part of picogram)
+
+
+* Installed dependencies
+
+   * npm install --save-dev nodemon
+   * npm install --save express
+
+* Usefull commands
+   * npm start - Runs the server connection (Need to restart if there are any changes)
+   * npm run dev - Runs the server (Automatically reboots if there are any changes in the code
+
