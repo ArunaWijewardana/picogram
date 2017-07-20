@@ -48,10 +48,14 @@ import './style.less';`
     "watch": "webpack --progress --colors --watch",
     "dev": " webpack-dev-server --colors --inline --hot"`
 
-`npm run build` - Builds the package using webpack
+* Webpack commands
+
+   * `npm run build` - Builds the package using webpack
 
 
-`npm run dev` - Runs the server specified on the port mentioned in **webpack.config.js** file.
+   * `npm run dev` - Runs the server specified on the port mentioned in **webpack.config.js** file.
+
+* Git Commands
 
    * `git status`
 
