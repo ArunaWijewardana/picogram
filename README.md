@@ -53,33 +53,33 @@ import './style.less';`
 
 `npm run dev` - Runs the server specified on the port mentioned in **webpack.config.js** file.
 
-      * `git status`
+   * `git status`
 
-      * `git config --global user.name "YourGithubUserName"`
+   * `git config --global user.name "YourGithubUserName"`
 
-      * `git config --global user.email registeredemail@email.com`
+   * `git config --global user.email registeredemail@email.com`
 
-      * `git config --list` - You sould see the entered details
+   * `git config --list` - You sould see the entered details
 
-      * `git status`
+   * `git status`
 
-      * `git add .` - Save the changes in your local git
+   * `git add .` - Save the changes in your local git
 
-      * `git commit -m'adding initial files'` - Adding them to your local package
+   * `git commit -m'adding initial files'` - Adding them to your local package
 
-      * `git push origin master` - Push your modified package to github
+   * `git push origin master` - Push your modified package to github
 
-      * `git checkout -b develop` - Create a branch called develop
+   * `git checkout -b develop` - Create a branch called develop
 
-      * `git push origin develop` - Push your code to devlop branch too
+   * `git push origin develop` - Push your code to devlop branch too
 
 * Hope you have removed a package from your development. Here it was jquery.
 
-      * `git add .` Add them to your local git.
+   * `git add .` Add them to your local git.
 
-      * `git commit -m"removing jquery"` Save the changes with a comment.
+   * `git commit -m"removing jquery"` Save the changes with a comment.
 
-      * `git push origin develop` - Upload the changed to **development** branch
+   * `git push origin develop` - Upload the changed to **development** branch
 
 ### Thursday 20th July
 
