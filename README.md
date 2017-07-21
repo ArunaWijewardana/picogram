@@ -35,7 +35,7 @@ Bootcamp picogram
 
 `pwd` - Shows your location in the file system
 
-* Create **script.css** & **script.less** files on the project directory. Add these lines to **script.js**
+* Create **style.css** & **style.less** files on the project directory. Add these lines to **script.js**
 
    * `'use strict';
 
